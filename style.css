@@ -1,0 +1,44 @@
+body{
+    margin: 20px;
+}
+.header{
+    height: 50px;
+    background-color: rgb(21, 108, 31);
+    text-align: center;
+    
+
+}
+.header{
+    margin-top: 0;
+    padding: 20px;
+
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(181, 216, 181);
+    top: 0;
+    position: sticky;
+}
+.menu li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+.menu li:hover,menu li:focus{
+    background-color: brown;
+}
+.menu a{
+    display: block;
+    padding:  10px 0;
+    text-decoration: none;
+}
+.container{
+    border: 2px solid rgb(5, 5, 11);
+    margin: 10px;
+    padding: 0 2px;
+}
+p{
+    background-color: aquamarine;
+}
